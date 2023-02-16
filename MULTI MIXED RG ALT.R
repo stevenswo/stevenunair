@@ -40,6 +40,7 @@ simulasi3 <- function () {
   for(i in 1:ns) {
     x <- rep(0, n+1)
     random_generated <- rep(0, n+1)
+    
     x[1] <- seed[i]
     if(c[i] != 0) {
         cat("Seed", x[1], ": Membangkitkan dengan Model Mixed Congruential RNG\n")
