@@ -1,4 +1,3 @@
-
 gen_discrete <- function(n) {
     p <- c(0.2, 0.15, 0.25, 0.4)
     x <- seq(length(p))
